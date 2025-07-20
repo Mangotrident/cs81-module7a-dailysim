@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Daily Schedule Simulation</title>
+</head>
+<body style="font-family: sans-serif; text-align: center; padding-top: 60px; background-color: #eef;">
+
+  <h1>My Simulated Day</h1>
+  <div id="output" style="margin-top: 40px; font-size: 1.5rem;"></div>
+
+  <script>
+     setTimeout(() => {
+      logActivity("7:00 AM - Woke up ");
+    }, 1000);
+
+    setTimeout(() => {
+      logActivity("7:30 AM - Showered");
+    }, 2000);
+
+    setTimeout(() => {
+      logActivity("8:00 AM - Ate breakfast");
+    }, 3000);
+
+    setTimeout(() => {
+      logActivity("9:00 AM - Did some coding and build cool stuff to post on social media");
+    }, 4000);
+
+    setTimeout(() => {
+      logActivity("12:00 PM - Took a break and scrolled social media + chatted with my friends");
+    }, 5000);
+
+    setTimeout(() => {
+      logActivity("5:00 PM - Played some video games");
+    }, 6000);
+
+    setTimeout(() => {
+      logActivity("7:00 PM - Ate Dinner with family");
+    }, 7000);
+
+    setTimeout(() => {
+      const surpriseMood = ["focused", "lazy", "energized", "bored"];
+      const mood = surpriseMood[Math.floor(Math.random() * surpriseMood.length)];
+      logActivity(`feeling ${mood}`);
+    }, 8000);
+
+
+  </script>
+
+</body>
+</html>
