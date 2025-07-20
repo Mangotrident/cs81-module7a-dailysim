@@ -1,0 +1,9 @@
+My approach to designing the schedule was just to reflect back on my usual, normal day that I would have without any plans or vacations. I used some basic activites such as video games, waking up, and eating dinner/breakfast which everyone does. These are some personal and interesitng activites because other than the basic, daily activites, I love to code so I implemented coding as an activity there too. Also I love social media and video games, hence I used those for some of the activites.
+
+I didn't really encounter any issues with this coding assignment. The settimeout() function was easy to use and it automated the assignment with the milliseconds fairly easily.
+
+Unlike synchronous code that runs top to bottom, asynchronous code lets the developer simulate real world delays. This helped me understand how JavaScript handles tasks like loading and user interactions.
+
+The creative element that I added was a random mood generator at the end of the simulation with the settimeout() function. I added an element it randomly generates a mood that I am feeling after 8 seconds at the end with an array and the Math tools.
+
+It is similar in the way that it sequences events and includes randomness, with the random mood generator. However, this simulation doesn't have any interruptions, multitasking or delays that make the activies harder to keep up with. These activites seem robotic and automated.
